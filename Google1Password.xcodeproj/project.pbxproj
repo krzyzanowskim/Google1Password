@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		613A2337F0D3C3BFB7D27498 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CA5F1E2D1B69FD897B48C5 /* libPods.a */; };
 		75198B541A9A4B750099B376 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75198B531A9A4B750099B376 /* main.m */; };
 		75198B571A9A4B750099B376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75198B561A9A4B750099B376 /* AppDelegate.m */; };
 		75198B5A1A9A4B750099B376 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75198B591A9A4B750099B376 /* ViewController.m */; };
@@ -14,6 +15,17 @@
 		75198B5F1A9A4B750099B376 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75198B5E1A9A4B750099B376 /* Images.xcassets */; };
 		75198B621A9A4B750099B376 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75198B601A9A4B750099B376 /* LaunchScreen.xib */; };
 		75198B6E1A9A4B750099B376 /* Google1PasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75198B6D1A9A4B750099B376 /* Google1PasswordTests.m */; };
+		7581D5121A9A597E00E9DC7B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D5111A9A597E00E9DC7B /* AddressBook.framework */; };
+		7581D5141A9A598400E9DC7B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D5131A9A598400E9DC7B /* AssetsLibrary.framework */; };
+		7581D5161A9A598A00E9DC7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D5151A9A598A00E9DC7B /* Foundation.framework */; };
+		7581D5181A9A599000E9DC7B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D5171A9A599000E9DC7B /* CoreLocation.framework */; };
+		7581D51A1A9A599600E9DC7B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D5191A9A599600E9DC7B /* CoreMotion.framework */; };
+		7581D51C1A9A599B00E9DC7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D51B1A9A599B00E9DC7B /* CoreGraphics.framework */; };
+		7581D51E1A9A59A200E9DC7B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D51D1A9A59A200E9DC7B /* CoreText.framework */; };
+		7581D5201A9A59A700E9DC7B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D51F1A9A59A700E9DC7B /* MediaPlayer.framework */; };
+		7581D5221A9A59AD00E9DC7B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D5211A9A59AD00E9DC7B /* Security.framework */; };
+		7581D5241A9A59B200E9DC7B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D5231A9A59B200E9DC7B /* SystemConfiguration.framework */; };
+		7581D5261A9A59B900E9DC7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7581D5251A9A59B900E9DC7B /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F047F57AE34ED3F6088158F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		75198B4E1A9A4B750099B376 /* Google1Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Google1Password.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75198B521A9A4B750099B376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75198B531A9A4B750099B376 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +53,19 @@
 		75198B671A9A4B750099B376 /* Google1PasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Google1PasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75198B6C1A9A4B750099B376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75198B6D1A9A4B750099B376 /* Google1PasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google1PasswordTests.m; sourceTree = "<group>"; };
+		7581D5111A9A597E00E9DC7B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		7581D5131A9A598400E9DC7B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7581D5151A9A598A00E9DC7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7581D5171A9A599000E9DC7B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7581D5191A9A599600E9DC7B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7581D51B1A9A599B00E9DC7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7581D51D1A9A59A200E9DC7B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7581D51F1A9A59A700E9DC7B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7581D5211A9A59AD00E9DC7B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7581D5231A9A59B200E9DC7B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7581D5251A9A59B900E9DC7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9109A2A77E8D5FD068A237C2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D3CA5F1E2D1B69FD897B48C5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7581D5261A9A59B900E9DC7B /* UIKit.framework in Frameworks */,
+				7581D5241A9A59B200E9DC7B /* SystemConfiguration.framework in Frameworks */,
+				7581D5221A9A59AD00E9DC7B /* Security.framework in Frameworks */,
+				7581D5201A9A59A700E9DC7B /* MediaPlayer.framework in Frameworks */,
+				7581D51E1A9A59A200E9DC7B /* CoreText.framework in Frameworks */,
+				7581D51C1A9A599B00E9DC7B /* CoreGraphics.framework in Frameworks */,
+				7581D51A1A9A599600E9DC7B /* CoreMotion.framework in Frameworks */,
+				7581D5181A9A599000E9DC7B /* CoreLocation.framework in Frameworks */,
+				7581D5161A9A598A00E9DC7B /* Foundation.framework in Frameworks */,
+				7581D5141A9A598400E9DC7B /* AssetsLibrary.framework in Frameworks */,
+				7581D5121A9A597E00E9DC7B /* AddressBook.framework in Frameworks */,
+				613A2337F0D3C3BFB7D27498 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +104,8 @@
 				75198B501A9A4B750099B376 /* Google1Password */,
 				75198B6A1A9A4B750099B376 /* Google1PasswordTests */,
 				75198B4F1A9A4B750099B376 /* Products */,
+				9DA025EB3FDE8EA3A9A70FEC /* Pods */,
+				F2A1D77EB19C56D2A51972FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +159,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9DA025EB3FDE8EA3A9A70FEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9109A2A77E8D5FD068A237C2 /* Pods.debug.xcconfig */,
+				1F047F57AE34ED3F6088158F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2A1D77EB19C56D2A51972FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7581D5251A9A59B900E9DC7B /* UIKit.framework */,
+				7581D5231A9A59B200E9DC7B /* SystemConfiguration.framework */,
+				7581D5211A9A59AD00E9DC7B /* Security.framework */,
+				7581D51F1A9A59A700E9DC7B /* MediaPlayer.framework */,
+				7581D51D1A9A59A200E9DC7B /* CoreText.framework */,
+				7581D51B1A9A599B00E9DC7B /* CoreGraphics.framework */,
+				7581D5191A9A599600E9DC7B /* CoreMotion.framework */,
+				7581D5171A9A599000E9DC7B /* CoreLocation.framework */,
+				7581D5151A9A598A00E9DC7B /* Foundation.framework */,
+				7581D5131A9A598400E9DC7B /* AssetsLibrary.framework */,
+				7581D5111A9A597E00E9DC7B /* AddressBook.framework */,
+				D3CA5F1E2D1B69FD897B48C5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75198B711A9A4B750099B376 /* Build configuration list for PBXNativeTarget "Google1Password" */;
 			buildPhases = (
+				FC038B3917D56430B9E70A03 /* Check Pods Manifest.lock */,
 				75198B4A1A9A4B750099B376 /* Sources */,
 				75198B4B1A9A4B750099B376 /* Frameworks */,
 				75198B4C1A9A4B750099B376 /* Resources */,
+				BDC49B83B361D4453770E19E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +283,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDC49B83B361D4453770E19E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC038B3917D56430B9E70A03 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75198B4A1A9A4B750099B376 /* Sources */ = {
@@ -341,8 +444,13 @@
 		};
 		75198B721A9A4B750099B376 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9109A2A77E8D5FD068A237C2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Google1Password",
+				);
 				INFOPLIST_FILE = Google1Password/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +459,13 @@
 		};
 		75198B731A9A4B750099B376 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F047F57AE34ED3F6088158F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Google1Password",
+				);
 				INFOPLIST_FILE = Google1Password/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +525,7 @@
 				75198B731A9A4B750099B376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75198B741A9A4B750099B376 /* Build configuration list for PBXNativeTarget "Google1PasswordTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +534,7 @@
 				75198B761A9A4B750099B376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

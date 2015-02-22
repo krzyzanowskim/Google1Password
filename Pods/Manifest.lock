@@ -1,0 +1,16 @@
+PODS:
+  - 1PasswordExtension (1.1.2)
+  - gtm-http-fetcher (1.0.141)
+  - gtm-oauth2 (1.0.125):
+    - gtm-http-fetcher (~> 1.0.141)
+
+DEPENDENCIES:
+  - 1PasswordExtension (~> 1.1)
+  - gtm-oauth2 (~> 1.0)
+
+SPEC CHECKSUMS:
+  1PasswordExtension: 38b5be7dd6dbe786c98f15d51d50ad21150db60a
+  gtm-http-fetcher: 6d4617e7d343b6e4c082b777541c334eb6f5d81e
+  gtm-oauth2: 3f97d22a6066a80df0b1f878c1ce41176472daad
+
+COCOAPODS: 0.36.0.beta.2
